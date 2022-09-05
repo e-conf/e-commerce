@@ -1,0 +1,1216 @@
+@media all and (max-width: 600px) {
+
+    body{
+        width: 100%;
+        height: auto;
+        min-width: 280px;
+    }
+
+    /* HEADER */
+    .navbar {
+        width: 100%;
+        position: fixed;
+        box-shadow: 0px 0px 0px 0px;
+    }
+
+    .navbar .logo-container{
+        width: 35%;
+    }
+
+    .navbar .logo-container img{
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar-container .hamburger-lines {
+        display: block;
+    }
+
+    .navbar-container {
+        display: block;
+        background-color: #04AA6D;
+        padding-right: 10px;
+        width: 65%;
+    }
+
+    .navbar-container .hamburger-lines {
+        display: flex;
+        height: 25px;
+        width: 35px;
+        float: right;
+        margin: 15px 0 0 0;
+        z-index: 2;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .navbar-container .hamburger-lines .line {
+        display: block;
+        height: 5px;
+        background: #333;
+    }
+
+    .navbar .menu-items {
+        display: none;
+        margin-top: 75px;
+        background-color: #04AA6D;
+        flex-direction: column;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .navbar .menu-items li {
+        margin: auto;
+        padding-top: 15px;
+        font-size: 15pt;
+        text-align: center;
+    }
+
+    #menu:last-child{
+        padding-bottom: 15px;
+    }
+
+    /* HOME-PAGE */
+    div#sfondo {
+        width: 100%;
+        height: 50%;
+    }
+
+    div#text{
+        background-color: white;
+        color: black;
+        font-size: 4vw;
+        font-weight: bold;
+        margin: auto auto;
+        padding: 10px;
+        width: 50%;
+        text-align: center;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        mix-blend-mode: screen;
+        z-index: 0;
+        border-radius: 15px;
+    }
+
+    .titolo{
+        float: left;
+        height: 20%;
+    }
+
+    .media{
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+
+    .media > div{
+        float: left;
+        width: auto;
+    }
+
+    .quote, .author{
+        font-size: 1.4em;
+    }
+
+    .author{
+        margin-right: 15px;
+        text-align: right;
+    }
+
+    .bannerContainer{
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .banner{
+        width: 100%;
+        height: auto;
+    }
+
+    .bannerContainer p{
+        float: left;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    .video{
+        position: relative;
+        width: 50%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .video video{
+        width: 100%;
+        height: auto;
+    }
+
+    .bio{
+        width: 100%;
+        height: auto;
+        margin-top: 5px;
+        margin-left: 0;
+        margin-right: 0;
+        font: italic 1.2em Georgia, serif;
+    }
+
+    .bio > p, .bio > p + p{
+        font-size: 1.2em;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /* FOOTER */
+    .footer-distributed{
+        display: inline-grid;
+        bottom: 0;
+    }
+
+    .footer-distributed .footer-left, .footer-distributed .footer-right {
+        text-align: center;
+    }
+
+    .footer-distributed .footer-right {
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .footer-distributed .footer-left p.footer-links {
+        line-height: 1.8;
+    }
+
+    p#namecompany{
+        text-align: center;
+        color: white;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    /* ABOUT-PAGE */
+    div#header h1#titolo{
+        font-size: 25pt;
+    }
+
+    div#header p#descrizione{
+        font-size: 20pt;
+    }
+
+    div#bodypage #gallerysection{
+        padding-top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    div#bodypage #gallerysection .gallerycontainer{
+        width: 100%;
+        height: 100%;
+    }
+
+    div#bodypage #gallerysection .titlesection h2{
+        font-size: 30pt;
+    }
+
+    div#bodypage #gallerysection .subtitlesection h3{
+        margin-top: 5px;
+    }
+
+    div#bodypage #main{
+        width: 100%;
+        height: 100%;
+    }
+
+    #main #descriptiontitle{
+        font-size: 25pt;
+    }
+
+    #main p, ul{
+        min-width: 10px;
+        font-size: 15pt;
+    }
+
+    /* PRODOTTI-PAGE */
+    .filtro{
+        margin-left: 25%;
+        font-size: 1.2em;
+    }
+
+    #title h1{
+        margin-top: 100px;
+        text-align: center;
+        color: red;
+    }
+
+    .gallerysection {
+        float: left;
+        width: 90%;
+        background-color: #f1f1f1;
+        border-radius: 25px;
+        margin-top: 25px;
+        margin-left: 5%;
+        padding: 25px 25px 25px 25px;
+    }
+
+    .gallerysection .gallerycontainer{
+        background-color: #aaa;
+        width: 100%;
+        height: 250px;
+    }
+
+    /* GESTIONE-PRODOTTI-PAGE */
+    #newProduct div{
+        margin-top: 0;
+        float: left;
+        width: 100%;
+        height: 80px;
+    }
+
+    #tableContainer{
+        overflow-x: auto;
+    }
+
+    #tableContainer table{
+        border-color: white;
+    }
+
+    #tableContainer table tr:nth-child(even) {
+        background-color: #D6EEEE;
+    }
+
+    div#gestioneCouponForm div fieldset legend{
+        font-size: 16pt;
+    }
+    div#gestioneCouponForm div fieldset span{
+        font-size: 16pt;
+    }
+
+    div#gestioneCouponForm div fieldset div i{
+        font-size: 16pt;
+    }
+
+    .infoCoupon{
+        font-size: 16pt;
+    }
+
+    div#gestioneCouponForm a.icon{
+        font-size: 16pt;
+    }
+
+    /* MODIFICA-PRODOTTO-PAGE */
+    div#updateImage{
+        width: 40%;
+        margin-left: 5px;
+    }
+
+    #descrizione{
+        width: 100%;
+    }
+
+    /* MODIFICA-SUCCESSO-PAGE */
+    #modificaOk table tr:nth-child(even){
+        background-color: mediumspringgreen;
+    }
+
+    /* CARRELLO-PAGE */
+    div#carrello {
+        width: 100%;
+        margin: 100px auto;
+        clear: both;
+        padding: 0;
+        background-color: #ffffff;
+        opacity: 1;
+        border: 1px solid white;
+        border-radius: 25px;
+        font-size: 20px;
+
+        -webkit-transition: all 400ms linear;
+        -moz-transition: all 400ms linear;
+        -ms-transition: all 400ms linear;
+        -o-transition: all 400ms linear;
+        transition: all 400ms linear;
+    }
+
+    #carrello > div{
+        text-align: center;
+        position: relative;
+        width: 100%;
+        margin: 5px;
+        padding: 0px;
+        border-left: none;
+        color: #436D6B;
+        border-bottom: #d3d3d3 1px solid;
+        min-height: 32px;
+        height: auto !important;
+        height: 32px;
+        overflow: hidden;
+    }
+
+    #productInfo em{
+        display: none;
+    }
+
+    #totaleSpesa{
+        float: right;
+        margin-right: 10%;
+    }
+
+    #totalProduct b{
+        display: none;
+    }
+
+    /* ACCOUNT-ADMIN-PAGE */
+    .row{
+        width: 100%;
+    }
+
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    /* ORDINE-FORM */
+    span#checkout{
+        margin: auto;
+    }
+
+    span#checkout button{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #ordineForm{
+        width: 100%;
+    }
+
+    #container{
+        float: left;
+        width: 100%;
+    }
+
+    #imgIndirizzo{
+        display: none;
+    }
+
+    /* RIEPILOGO-ORDINE-PAGE */
+    #riepilogoOrdineContainer{
+        margin: 5px auto;
+        width: 90%;
+        height: auto;
+    }
+
+    div#prodottoDati #left{
+        float: left;
+        margin-top: 5px;
+        width: auto;
+    }
+
+    div#prodottoDati #right{
+        float: left;
+        width: 100%;
+    }
+
+    .indirizzoConsegna{
+        float: left;
+        width: 100%;
+    }
+
+    /* LOGIN/SIGNUP FORM */
+    #formMobileLogin, #formMobileRegistrazione{
+        margin-top: 75px;
+        width: 100%;
+        height: 100%;
+        background-color: #f1f1f1;
+        z-index: 1;
+    }
+
+    #formMobileLogin form, #formMobileRegistrazione form{
+        margin-top: 25%;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    #formMobileLogin form input, #formMobileRegistrazione form input{
+        background-color: white;
+        border-color: red;
+    }
+
+    #formMobileLogin form input::placeholder {
+        color: #1c87c9;
+        opacity: 1;
+    }
+
+    #formMobileRegistrazione form input::placeholder {
+        color: #1c87c9;
+        opacity: 1;
+    }
+
+    #formMobileLogin form input[type="text"], #formMobileLogin form input[type="password"]{
+        color: black;
+    }
+
+    #formMobileRegistrazione form input[type="text"], #formMobileRegistrazione form input[type="password"]{
+        color: black;
+    }
+
+    button.off{
+        background-color: orange;
+    }
+
+    #loginButton{
+        background-color: #04AA6D;
+    }
+
+}
+
+@media all and (min-width: 600px) and (max-width: 1300px) {
+
+    /* HEADER */
+    .navbar {
+        width: 100%;
+        position: fixed;
+        box-shadow: 0px 0px 0px 0px;
+    }
+
+    .navbar .logo-container{
+        background-color: #e74c3c;
+        width: 35%;
+    }
+
+    .navbar .logo-container img{
+        width: auto;
+        height: auto;
+    }
+
+    .navbar-container .hamburger-lines {
+        display: block;
+    }
+
+    .navbar-container {
+        display: block;
+        background-color: #e74c3c;
+        padding-right: 10px;
+        width: 65%;
+    }
+
+    .navbar-container .hamburger-lines {
+        display: flex;
+        height: 25px;
+        width: 35px;
+        float: right;
+        margin: 15px 0 0 0;
+        z-index: 2;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .navbar-container .hamburger-lines .line {
+        display: block;
+        height: 5px;
+        background: #333;
+    }
+
+    .navbar .menu-items {
+        display: none;
+        margin-top: 75px;
+        background-color: #04AA6D;
+        flex-direction: column;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .navbar .menu-items li {
+        margin: auto;
+        padding-top: 15px;
+        font-size: 15pt;
+        text-align: center;
+    }
+
+    #menu:last-child{
+        padding-bottom: 15px;
+    }
+
+    /* HOME-PAGE */
+    div#sfondo {
+        width: 100%;
+        height: 70%;
+    }
+
+    div#text{
+        background-color: white;
+        color: black;
+        font-size: 4vw;
+        font-weight: bold;
+        margin: auto auto;
+        padding: 10px;
+        width: 50%;
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        mix-blend-mode: screen;
+        z-index: 0;
+        border-radius: 15px;
+    }
+
+    .titolo{
+        text-align: center;
+    }
+
+    .media{
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+
+    .media > div{
+        float: left;
+        width: 45%;
+    }
+
+    .quote, .author{
+        font-size: 1.4em;
+    }
+
+    .author{
+        margin-right: 15px;
+        text-align: right;
+    }
+
+    .bannerContainer{
+        float: left;
+        width: 50%;
+        height: auto;
+        margin-left: 5%;
+        margin-right: 0;
+    }
+
+    .banner{
+        width: 100%;
+        height: auto;
+    }
+
+    .bannerContainer p{
+        float: left;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .video{
+        float: left;
+        width: 40%;
+        height: auto;
+        margin-bottom: 5px;
+    }
+
+    .video video{
+        width: 100%;
+        height: auto;
+    }
+
+    .bio{
+        float: left;
+        width: 60%;
+        height: auto;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .bio > p, .bio > p + p{
+        font-size: 1.2em;
+        margin-left: 5px;
+        margin-right: 0;
+    }
+
+    /* FOOTER */
+    .footer-distributed{
+        display: inline-grid;
+        bottom: 0;
+    }
+
+    .footer-distributed .footer-left, .footer-distributed .footer-right {
+        text-align: center;
+    }
+    .footer-distributed .footer-right {
+        float: none;
+        margin: 0 auto 20px;
+    }
+    .footer-distributed .footer-left p.footer-links {
+        line-height: 1.8;
+    }
+
+    p#namecompany{
+        text-align: center;
+        color: white;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    /* ABOUT-PAGE */
+    div#header h1#titolo{
+        font-size: 25pt;
+    }
+
+    div#header p#descrizione{
+        font-size: 20pt;
+    }
+
+    div#bodypage #gallerysection{
+        padding-top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    div#bodypage #gallerysection .gallerycontainer{
+        width: 100%;
+        height: 100%;
+    }
+
+    div#bodypage #gallerysection .titlesection h2{
+        font-size: 30pt;
+    }
+
+    div#bodypage #gallerysection .subtitlesection h3{
+        margin-top: 5px;
+    }
+
+    div#bodypage #main{
+        width: 100%;
+        height: 100%;
+    }
+
+    #main #descriptiontitle{
+        font-size: 25pt;
+    }
+
+    #main p, ul{
+        min-width: 10px;
+        font-size: 20pt;
+    }
+
+    /* PRODOTTI-PAGE */
+    .filtro{
+        margin-left: 25%;
+        font-size: 1.2em;
+    }
+
+    #title h1{
+        margin-top: 0px;
+        text-align: center;
+        color: red;
+    }
+
+    .gallerysection {
+        float: left;
+        width: 40%;
+        background-color: #f1f1f1;
+        border-radius: 25px;
+        margin-top: 25px;
+        margin-left: 5%;
+        padding: 25px 25px 25px 25px;
+    }
+
+    .gallerysection .gallerycontainer{
+        background-color: #aaa;
+        width: 100%;
+        height: 250px;
+    }
+
+    /* GESTIONE-PRODOTTI-PAGE */
+    #tableContainer{
+        overflow-x: auto;
+    }
+
+    #tableContainer table{
+        border-color: white;
+    }
+
+    #tableContainer table tr:nth-child(even) {
+        background-color: #D6EEEE;
+    }
+
+    div#gestioneCouponForm div fieldset legend{
+        font-size: 20pt;
+    }
+    div#gestioneCouponForm div fieldset span{
+        font-size: 20pt;
+    }
+
+    div#gestioneCouponForm div fieldset div i{
+        font-size: 20pt;
+    }
+
+    .infoCoupon{
+        font-size: 20pt;
+    }
+
+    div#gestioneCouponForm a.icon{
+        font-size: 20pt;
+    }
+
+    /* MODIFICA-PRODOTTO-PAGE */
+    div#updateImage{
+        width: 40%;
+        margin-left: 5px;
+    }
+
+    #descrizione{
+        width: 100%;
+    }
+
+    /* MODIFICA-SUCCESSO-PAGE */
+    #modificaOk table tr:nth-child(even){
+        background-color: mediumspringgreen;
+    }
+
+    /* ACCOUNT-ADMIN-PAGE */
+    .row{
+        width: 100%;
+    }
+
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    /* ORDINE-FORM */
+    span#checkout{
+        margin: auto;
+    }
+
+    span#checkout button{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #ordineForm{
+        width: 100%;
+    }
+
+    #container{
+        float: left;
+        width: 100%;
+    }
+
+    #imgIndirizzo{
+        display: none;
+    }
+
+    /* RIEPILOGO-ORDINE-PAGE */
+    #riepilogoOrdineContainer{
+        margin: 5px auto;
+        width: 90%;
+        height: auto;
+    }
+
+    #left{
+        width: auto;
+        max-width: 45%;
+        height: 100%;
+        float: left;
+    }
+
+    #right{
+        float: left;
+        width: 50%;
+    }
+
+    /* LOGIN/SIGNUP FORM */
+    #formMobileLogin, #formMobileRegistrazione{
+        margin-top: 75px;
+        width: 100%;
+        height: 100%;
+        background-color: #f1f1f1;
+        z-index: 1;
+    }
+
+    #formMobileLogin form, #formMobileRegistrazione form{
+        margin-top: 25%;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    #formMobileLogin form input, #formMobileRegistrazione form input{
+        background-color: white;
+        border-color: red;
+    }
+
+    #formMobileLogin form input::placeholder {
+        color: #1c87c9;
+        opacity: 1;
+    }
+
+    #formMobileRegistrazione form input::placeholder {
+        color: #1c87c9;
+        opacity: 1;
+    }
+
+    #formMobileLogin form input[type="text"], #formMobileLogin form input[type="password"]{
+        color: black;
+    }
+
+    #formMobileRegistrazione form input[type="text"], #formMobileRegistrazione form input[type="password"]{
+        color: black;
+    }
+
+    #loginButton{
+        background-color: #04AA6D;
+    }
+
+}
+
+@media all and (min-width: 1800px) {
+
+    /* NAVBAR */
+    .logo-container, .navbar-container {
+        height: 100px;
+    }
+
+    .menu-items li {
+        font-size: 36pt;
+    }
+
+    /* HOME-PAGE */
+    p#descrizione {
+        font-size: 30pt;
+    }
+
+    .quote {
+        font-size: 30pt;
+    }
+
+    .bio p {
+        font-size: 30pt;
+    }
+
+    .bio > p + p {
+        font-size: 28pt;
+    }
+
+    /* ABOUT-PAGE */
+    div#bodypage {
+        margin-top: 100px;
+    }
+
+    div#bodypage #gallerysection {
+        margin-top: 0px;
+    }
+
+    #main p, ul {
+        font-size: 25pt;
+    }
+
+    /* FOOTER */
+    .footer-distributed p.footer-links {
+        font-size: 24pt;
+    }
+
+    .footer-distributed p.footer-links + p {
+        font-size: 16pt;
+    }
+
+    .footer-distributed .footer-right a {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        background-color: #33383b;
+        border-radius: 2px;
+        font-size: 24pt;
+        color: #ffffff;
+        text-align: center;
+        line-height: 35px;
+        margin-left: 3px;
+        transition: all .25s;
+    }
+
+    /* PRODOTTI-PAGE */
+    span#title h1 {
+        margin-top: 120px;
+        font-size: 2.4em;
+        text-align: center;
+        color: red;
+    }
+
+    .filtro {
+        margin-left: 50px;
+        font-size: 2.4em;
+    }
+
+    .filtro select {
+        width: 10%;
+        height: 50px;
+    }
+
+
+    .productname{
+        color: red;
+        font-size: 30pt;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .productorigin{
+        color: black;
+        font-size: 28pt;
+        font-family: "Courier New", monospace;
+        text-align: center;
+    }
+
+    .price{
+        color: black;
+        font-size: 30pt;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .productorigin + button{
+        font-size: 28pt;
+    }
+
+    button .nondisponibile{
+        font-size: 28pt;
+    }
+
+    /* GESTIONE-PRODOTTI-ADMIN PAGE */
+    #newProduct{
+        margin-top: 120px;
+    }
+
+    #newProduct form button{
+        font-size: 36pt;
+    }
+
+    #tableContainer table tr th{
+        font-size: 30pt;
+    }
+
+    #tableContainer table tr td{
+        font-size: 30pt;
+    }
+
+    #tableContainer table tr td form button i{
+        font-size: 30pt;
+    }
+
+    /* MODIFICA-PRODOTTO-PAGE */
+    div#updateProduct{
+        margin: 120px 20px;
+    }
+
+    div#updateProduct form label{
+        font-size: 30pt;
+    }
+
+    div#updateProduct form input[value]{
+        font-size: 30pt;
+    }
+
+    div#updateProduct form i{
+        font-size: 30pt;
+    }
+
+    div#updateProduct form button{
+        font-size: 30pt;
+    }
+
+    /* MODIFICA-SUCCESSO-PAGE */
+    #modificaOk{
+        margin: 120px auto;
+        text-align: center;
+    }
+
+    #modificaOk h1{
+        font-size: 45pt;
+    }
+
+    #modificaOk table tr th{
+        font-size: 36pt;
+    }
+
+    #modificaOk table tr td{
+        font-size: 36pt;
+    }
+
+    #modificaOk a.icon i{
+        font-size: 36pt;
+    }
+
+    /* INSERIMENTO-PRODOTTO-ADMIN-PAGE */
+    #insertProduct{
+        margin-top: 100px;
+    }
+
+    #insertProduct label, input{
+        color:black;
+        font-size: 30pt;
+    }
+
+    #insertProduct a.icon{
+        font-size: 30pt;
+    }
+
+    /* GESTIONE-SCONTI-ADMIN PAGE*/
+    div#gestioneCouponForm div fieldset legend{
+        font-size: 36pt;
+    }
+    div#gestioneCouponForm div fieldset span{
+        font-size: 36pt;
+    }
+
+    div#gestioneCouponForm div fieldset div i{
+        font-size: 36pt;
+    }
+
+    .infoCoupon{
+        font-size: 30pt;
+    }
+
+    div#gestioneCouponForm a.icon{
+        font-size: 36pt;
+    }
+
+    /* INSERT/UPLOAD IMAGE */
+    #upload{
+        margin-top: 180px;
+    }
+
+    #upload form fieldset legend{
+        font-size: 30pt;
+    }
+
+    #upload form fieldset input[type="submit"]{
+        width: 10%;
+    }
+
+    #upload form fieldset input[type="reset"]{
+        width: 10%;
+    }
+
+    /* CARRELLO */
+    div#carrello{
+        width: 45%;
+        margin: 120px auto;
+    }
+
+    div#carrello h1{
+        font-size: 40pt;
+    }
+
+    span#info{
+        font-size: 30pt;
+    }
+
+    #productInput{
+        width: 15%;
+    }
+
+    #productInput input{
+        font-size: 28pt;
+    }
+
+    #totalProduct span{
+        font-size: 28pt;
+    }
+
+    #deleteProduct a i{
+        font-size: 28pt;
+    }
+
+    #totaleSpesa{
+        font-size: 28pt;
+    }
+
+    .noProductInfo{
+        font-size: 36pt;
+    }
+
+    #checkout button{
+        font-size: 28pt;
+    }
+
+    /* LOGIN/SIGNUP FORM */
+    #form{
+        margin-top: 100px;
+    }
+
+    .content{
+        left: 25%;
+        width: 75%;
+    }
+
+    .content h2 {
+        color: #03A9F4;
+        font-weight: 300;
+        font-size: 45pt;
+        text-align: center;
+    }
+
+    .form-group input{
+
+        font-size: 40pt;
+    }
+
+    .off{
+        margin-top: 10%;
+        margin-bottom: 2%;
+        font-size: 36pt;
+    }
+
+    #registrati, #login{
+        font-size: 36pt;
+    }
+
+    /* ACCOUNT-ADMIN-PAGE */
+    .row{
+        margin-left: 12.5%;
+        width: 75%;
+    }
+
+    .column{
+        margin-top: 110px;
+        height: 75%;
+    }
+
+    .column .card p.title{
+        font-size: 40pt;
+    }
+
+    .accordion button{
+        font-size: 32pt;
+    }
+
+    .acc-content{
+        font-size: 32pt;
+    }
+
+    .column .card table tr th{
+        font-size: 36pt;
+    }
+
+    .column .card table tr td{
+        font-size: 36pt;
+    }
+
+    #cambioPassword{
+        font-size: 36pt;
+    }
+
+    #cambioPasswordForm form div.container label{
+        font-size: 32pt;
+    }
+
+    #cambioPasswordForm form div.container button[type="button"]{
+        font-size: 30pt;
+    }
+
+    #cambioPasswordForm form div.container button[type="reset"]{
+        font-size: 30pt;
+    }
+
+    .column form button{
+        font-size: 36pt;
+    }
+
+}

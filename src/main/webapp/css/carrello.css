@@ -1,0 +1,130 @@
+.navbar{
+    background-color: red;
+}
+
+div#carrello{
+    width: 500px;
+    margin: 100px auto;
+    clear: both;
+    padding: 20px;
+    background-color: #ffffff;
+    opacity: 1;
+    border: #d3d3d3 1px solid;
+    border-radius: 25px;
+    font-size: 20px;
+
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    transition: all 400ms linear;
+
+}
+
+#carrello > div{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin: 10px;
+    padding: 0px;
+    border-left: none;
+    color: #436D6B;
+    border-bottom: #d3d3d3 1px solid;
+    min-height: 32px;
+    height: auto !important;
+    height: 32px;
+    overflow: hidden;
+}
+
+#productInfo{
+    float:left;
+    width: 40%;
+}
+
+#productInput{
+    float: left;
+    width: 15%;
+}
+
+#totalProduct{
+    float: left;
+    width: 35%;
+}
+
+#deleteProduct{
+    float: left;
+}
+
+#totaleSpesa{
+    margin-left: 60%;
+}
+
+#checkout{
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+#productInput > input {
+    border: 0;
+    outline: 0;
+    font-size: 14px;
+    border: 2px solid lightgrey;
+    color: black;
+    padding: 2px 0;
+    margin: 3px auto;
+}
+
+/* ORDINE-FORM */
+#ordineForm{
+    width: 80%;
+    margin: auto;
+}
+.popup-content{
+    background-color: red;
+}
+
+.container {
+    z-index: 3;
+    background-color: #D6EEEE;
+    padding: 16px;
+}
+
+#container{
+    float: left;
+    width: 50%;
+}
+
+#img{
+    width: 50%;
+    height: 40%;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 2px;
+    color: black;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input#sconto{
+    width: 35%;
+}
+
+button#verificaSconto{
+    background-color: orange;
+    width: 50%;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    cursor: pointer;
+}
+
